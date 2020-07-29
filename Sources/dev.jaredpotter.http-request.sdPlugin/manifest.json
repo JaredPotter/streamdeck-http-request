@@ -1,0 +1,40 @@
+{
+    "Actions": [
+        {
+            "Icon": "actionIcon",
+            "Name": "HTTP Request",
+            "States": [
+                {
+                    "Image": "actionDefaultImage",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "A straightforward HTTP Request Action for the Elgato Streamdeck.\nSupports URL, HTTP Methods, query parameters, headers, and body.",
+            "UUID": "dev.jaredpotter.streamdeck-http-request"
+        }
+    ],
+    "SDKVersion": 2,
+    "Author": "Jared Potter",
+    "CodePath": "code.html",
+    "PropertyInspectorPath": "propertyInspectorIndex.html",
+    "Description": "A straightforward HTTP Request Action for the Elgato Streamdeck.\nSupports URL, HTTP Methods, query parameters, headers, and body.\nIcon created by Alfredo Hernandez (https://www.alfredocreates.com).",
+    "Name": "HTTP Request",
+    "Icon": "pluginIcon",
+    "URL": "https://www.twitter.com/jaredpotter",
+    "Version": "1.0",
+    "OS": [
+        {
+            "Platform": "mac",
+            "MinimumVersion": "10.11"
+        },
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ],
+    "Software": {
+        "MinimumVersion": "4.1"
+    }
+}
