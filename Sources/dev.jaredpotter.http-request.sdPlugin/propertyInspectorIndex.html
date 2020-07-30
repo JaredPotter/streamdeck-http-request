@@ -14,7 +14,7 @@
 
   <body>
     <div class="sdpi-wrapper">
-      <div class="sdpi-item" id="your_name">
+      <div class="sdpi-item">
         <div class="sdpi-item-label">Method</div>
         <select class="sdpi-item-value select">
           <option value="get">GET</option>
@@ -38,10 +38,75 @@
         <div class="sdpi-item-label">
           Query Parameters
         </div>
+        <div class="right-side">
+          <table
+            class="sdpi-item-value query-parameters-table"
+            id="queryParametersTable"
+          >
+            <tr>
+              <th>Active</th>
+              <th>Key</th>
+              <th>Value</th>
+              <th>Delete</th>
+            </tr>
+            <!-- <tr>
+              <td class="start-and-end-row">
+                <input id="other" type="checkbox" value="checked" />
+                <label for="other" class="sdpi-item-label"><span></span></label>
+              </td>
+              <td class="key-value-input">
+                <input type="text" />
+              </td>
+              <td class="key-value-input">
+                <input type="text" />
+              </td>
+              <td class="start-and-end-row delete-item">
+                <span>X</span>
+              </td>
+            </tr> -->
+          </table>
+          <button
+            class="add-query-parameter-button"
+            id="addQueryParameterButton"
+          >
+            +
+          </button>
+        </div>
       </div>
       <div class="sdpi-item">
         <div class="sdpi-item-label">
           Headers
+        </div>
+        <div class="right-side">
+          <table
+            class="sdpi-item-value query-parameters-table"
+            id="headersTable"
+          >
+            <tr>
+              <th>Active</th>
+              <th>Key</th>
+              <th>Value</th>
+              <th>Delete</th>
+            </tr>
+            <!-- <tr>
+              <td class="start-and-end-row">
+                <input id="other" type="checkbox" value="checked" />
+                <label for="other" class="sdpi-item-label"><span></span></label>
+              </td>
+              <td class="key-value-input">
+                <input type="text" />
+              </td>
+              <td class="key-value-input">
+                <input type="text" />
+              </td>
+              <td class="start-and-end-row delete-item">
+                <span>X</span>
+              </td>
+            </tr> -->
+          </table>
+          <button class="add-query-parameter-button" id="addHeaderButton">
+            +
+          </button>
         </div>
       </div>
       <div class="sdpi-item">
@@ -825,6 +890,7 @@
     <!-- <div class="sdpi-info-label hidden" style="top: -1000;" value=""></div> -->
 
     <!-- <script src="echomd.js"></script> -->
+    <script src="./uuidv4.min.js"></script>
     <script src="./propertyInspectorIndex.js"></script>
   </body>
 </html>

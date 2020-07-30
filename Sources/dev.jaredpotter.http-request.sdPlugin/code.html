@@ -20,6 +20,7 @@
       const httpRequestAction = {
         type: "dev.jaredpotter.streamdeck-http-request",
         onKeyDown: (context, settings, coordinates, userDesiredState) => {
+          debugger;
           this.SetTitle(context, "Loading...");
         },
         onKeyUp: (context, settings, coordinates, userDesiredState) => {},

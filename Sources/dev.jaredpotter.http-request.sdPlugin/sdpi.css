@@ -5,7 +5,7 @@
   --sdpi-bordercolor: #3a3a3a;
   --sdpi-buttonbordercolor: #969696;
   --sdpi-borderradius: 0px;
-  --sdpi-width: 224px;
+
   --sdpi-fontweight: 600;
   --sdpi-letterspacing: -0.25pt;
 }
@@ -1572,4 +1572,49 @@ input[type="range"].colortemperature::-webkit-slider-thumb {
   position: absolute;
   opacity: 1;
   transition: opacity 0.25s ease-out;
+}
+
+/* HTTP REQUEST CSS */
+.query-parameters-table .start-and-end-row {
+  width: 12%;
+  cursor: pointer;
+}
+
+.query-parameters-table .start-and-end-row label {
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.query-parameters-table .start-and-end-row label span {
+  margin: 2px;
+}
+
+.query-parameters-table .key-value-input {
+  width: 35%;
+}
+
+.query-parameters-table .key-value-input input {
+  min-width: 0px;
+  width: 100%;
+  margin: 2px;
+}
+
+.query-parameters-table .delete-item {
+}
+
+.query-parameters-table .delete-item span {
+  color: red;
+}
+
+.query-parameters-table .right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side .add-query-parameter-button {
+  width: 100%;
+}
+
+.add-query-parameter-button {
+  cursor: pointer;
 }
